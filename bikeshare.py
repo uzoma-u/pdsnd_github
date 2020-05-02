@@ -199,7 +199,7 @@ def data_display(df):
     start_time = time.time()
 
     missing_values = df.isnull().sum().sum()
-    print("The number of missing valuse: ", missing_values)
+    print("The number of missing valuse in the {} dataset: {}".format(city, missing_values)
 
     # Display raw data upon user request
     start_row = 0

@@ -167,11 +167,12 @@ def user_stats(df):
     user_types_counts = df["User Type"].value_counts()
     print("\nThe value count for each user type: ", user_types_counts)
 
-    # TO DO: Display counts of gender
-    if ("Gender", "Birth Year") in df.columns:
 
+    if ("Gender", "Birth Year") in df.columns:
+        # TO DO: Display counts of gender
         gender_counts = df["Gender"].value_counts()
-        print("\nGender counts: ", gender_counts)
+        for index, gender_count in enumerate(gender_counts):
+            print("{}: {}".format(gender_counts.index[index], gender_counts)
 
         # Display Trip Duration per gender
         gender_trips = df.groupby(["Gender"])["Trip Duration"].sum()

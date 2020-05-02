@@ -5,7 +5,7 @@ Project created on 05/01/2020
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+The project compares bikeshare systems data in three major US cities - Chicago, New York City, and Washington using Python. The Python script builds an interactive environment for a user to view raw data and usage patterns in the three cities.
 
 ### Files used
 Include the files used

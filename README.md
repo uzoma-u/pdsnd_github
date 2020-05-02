@@ -8,7 +8,9 @@ Explore US Bikeshare Data
 The project compares bikeshare systems data in three major US cities - Chicago, New York City, and Washington using Python. The Python script builds an interactive environment for a user to view raw data and usage patterns in the three cities.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington_csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Data was provided by a bikeshare system provider, Motivate, via Udacity Nanodegree Program.

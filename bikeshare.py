@@ -210,7 +210,7 @@ def data_display(df):
 
         start_row += 5
 
-        user_request_again = input("Would like to view more rows of raw data? Yes/No: ")
+        user_request_again = input("Would you like to view more rows of raw data? Yes/No: ")
         if user_request_again.lower() != "yes":
             break
 
